@@ -10,7 +10,7 @@ source:
   sha256: 066842324099b2a9ee7363713c022016384d44569a8edf702fdd992356f1054c
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -20,11 +20,11 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
-    - librobotraconteur                         # [build_platform != target_platform]
+    - librobotraconteur >=1.3.0                 # [build_platform != target_platform]
     - gz-cmake3
   host:
-    - librobotraconteur >=1.2.7
-    - robotraconteur_companion >=0.4.2
+    - librobotraconteur >=1.3.0
+    - robotraconteur_companion >=0.4.4
     - libgz-sim
     - libboost-devel
     - yaml-cpp
