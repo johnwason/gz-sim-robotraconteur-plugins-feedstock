@@ -22,8 +22,6 @@ libboost_devel:
 - '1.90'
 macos_machine:
 - arm64-apple-darwin20.0.0
-macos_min_version:
-- '10.15'
 target_platform:
 - osx-arm64
 tinyxml2:

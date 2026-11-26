@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: Robot Raconteur plugin for the GZ Sim Robot Simulator
 
+Development: https://github.com/robotraconteur-contrib/gz-sim-robotraconteur-plugins
+
 Current build status
 ====================
 
